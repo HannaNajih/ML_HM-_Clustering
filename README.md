@@ -23,14 +23,23 @@ This Python script analyzes your business/financial data by:
 
 
 # Project Structure
+
 ML_P2/
+
 ├── data/                   # Your input data
+
 │   └── BusinessDS.xlsx     # <-- PUT YOUR FILE HERE
+
 ├── scripts/
+
 │   └── 2_clustering.py     # Main analysis script
+
 └── results/                # Results appear here automatically
+
    ├── clusters.csv         # Cluster assignments
+   
    └── plots/               # Visualization images
+   
 ---
 
 ### Setup - Run These Commands First
@@ -40,7 +49,6 @@ pip install pandas scikit-learn matplotlib scipy openpyxl
 2. **Verify installation:**
 python -c "import pandas; print('Success!')"
 
-## 📬 Contact
 
 ## 📬 Contact
 
